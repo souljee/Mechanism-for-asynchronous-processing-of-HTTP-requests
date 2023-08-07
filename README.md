@@ -1,5 +1,5 @@
 # NodeJS-Dev-Test
-Mechanism for asynchronous processing of HTTP requests
+# Механизм асинхронной обработки HTTP запросов
 
 # Установка и настройка
 1. Склонируйте репозиторий проекта: https://github.com/souljee/NodeJS-Dev-Test.git
