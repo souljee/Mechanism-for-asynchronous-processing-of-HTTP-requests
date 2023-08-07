@@ -74,7 +74,12 @@ app.post('/', async (req, res) => {
 app.listen(3000, () => {
     logger.info('Сервер М1 запущен на порту 3000');
 });
-
+app.get('/startm1', (req, res) => {
+    res.send('Это GET-запрос на /method');
+});
+app.post('/method', (req, res) => {
+    res.send('Это POST-запрос на /method');
+});
 app.get('/', (req, res) => {
     res.send('Привет! Это микросервис М1.');
 });
